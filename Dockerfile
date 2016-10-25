@@ -1,4 +1,4 @@
-FROM maven:3-jdk-7
+FROM maven:3-jdk-8
 
 RUN apt-get update && apt-get install -y python-pip jq
 RUN pip install awscli
